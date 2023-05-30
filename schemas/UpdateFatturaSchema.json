@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "string"
+      },
+      "utente": {
+        "type": "string",
+        "minLength": 1
+      },
+      "indirizzata": {
+        "type": "string",
+        "minLength": 1
+      },
+      "motivazioni": {
+        "type": "string",
+        "minLength": 1
+      },
+      "somma": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+
+    "required": [
+      "data",
+      "utente",
+      "indirizzata",
+      "motivazioni",
+      "somma"
+    ],
+    "additionalProperties": false
+  }
+  

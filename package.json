@@ -1,0 +1,38 @@
+{
+    "name": "fatture-app",
+    "version": "1.0.0",
+    "description": "A simple web application for managing invoices",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "jest"
+    },
+    "keywords": [
+        "web",
+        "app",
+        "invoices",
+        "fatture",
+        "management"
+    ],
+    "author": "Owl",
+    "license": "MIT",
+    "dependencies": {
+        "ajv": "^8.6.2",
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.19.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.17.1",
+        "mysql2": "^2.3.0",
+        "pg": "^8.10.0",
+        "sequelize": "^6.31.1",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^4.6.3"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1",
+        "nodemon": "^2.0.22",
+        "supertest": "^6.1.3"
+    }
+}

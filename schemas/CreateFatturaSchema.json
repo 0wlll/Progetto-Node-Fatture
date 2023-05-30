@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "required": [
+    "data",
+    "utente",
+    "indirizzata",
+    "motivazioni",
+    "somma"
+  ],
+  "properties": {
+    "data": {
+      "type": "string"
+    },
+    "utente": {
+      "type": "string"
+    },
+    "indirizzata": {
+      "type": "string"
+    },
+    "motivazioni": {
+      "type": "string"
+    },
+    "somma": {
+      "type": "number",
+      "minimum": 0
+    }
+  }
+}
